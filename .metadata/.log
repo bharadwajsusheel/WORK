@@ -1,0 +1,91 @@
+!SESSION 2019-08-29 02:39:32.587 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.fullversion=8.0.5.35 - pwa6480sr5fp35ifix-20190524_01(SR5 FP35+IJ15979)
+JRE 1.8.0 Windows 10 amd64-64-Bit Compressed References 20190524_417294 (JIT enabled, AOT enabled)
+OpenJ9   - 321e430
+OMR      - 16b77d7
+IBM      - 72459d3
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -showlocation -product com.ibm.etools.msgbroker.tooling.ide tools_auto -showlocation -product com.ibm.etools.msgbroker.tooling.ide
+Command-line arguments:  -data E:\WORK -os win32 -ws win32 -arch x86_64 -showlocation -product com.ibm.etools.msgbroker.tooling.ide tools_auto -showlocation -product com.ibm.etools.msgbroker.tooling.ide
+
+!ENTRY org.eclipse.emf.ecore 2 0 2019-08-29 02:39:37.400
+!MESSAGE Both 'com.ibm.etools.javaee.core' and 'com.ibm.etools.mft.service.model' register an extension parser for 'application'
+
+!ENTRY org.eclipse.jface 2 0 2019-08-29 02:39:41.118
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-08-29 02:39:41.118
+!MESSAGE A conflict occurred for ALT+CTRL+C:
+Binding(ALT+CTRL+C,
+	ParameterizedCommand(Command(org.eclipse.datatools.sqltools.result.copyInstance,Copy Result,
+		,
+		Category(org.eclipse.datatools.sqltools.result.category,SQL Results View,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@8d155605,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+CTRL+C,
+	ParameterizedCommand(Command(org.eclipse.team.svn.ui.command.CommitCommand,Commit...,
+		,
+		Category(org.eclipse.team.svn.ui.command.category,SVN,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@865e5da2,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.ui 2 2 2019-08-29 02:39:42.868
+!MESSAGE Invalid preference category path: com.ibm.importer.preferences (bundle: com.ibm.adapter.c, page: com.ibm.adapter.c.ui.preferencepage.CPreferencePage)
+
+!ENTRY org.eclipse.ui 2 2 2019-08-29 02:39:42.868
+!MESSAGE Invalid preference category path: com.ibm.debug.breakpoints.common.pref.tracepoint (bundle: com.ibm.debug.wsa, page: com.ibm.debug.wsa.WSATracepointPreferencePage)
+
+!ENTRY org.eclipse.ui 2 2 2019-08-29 02:39:42.868
+!MESSAGE Invalid preference category path: com.ibm.importer.preferences (bundle: com.ibm.etools.cobol.preference.ui, page: com.ibm.etools.cobol.preference.ui.preferencepage.CobolPreferencePage)
+
+!ENTRY com.ibm.mq.runtime 1 0 2019-08-29 02:39:51.118
+!MESSAGE 
+
+!ENTRY com.ibm.mq.runtime 1 0 2019-08-29 02:39:51.134
+!MESSAGE C:\Program Files\IBM\ACE\11.0.0.5\tools>mqsifindmqpath
+
+!ENTRY com.ibm.mq.runtime 1 0 2019-08-29 02:39:52.399
+!MESSAGE BIP8071I: Successful command completion. C:\Program Files\IBM\MQ
+
+!ENTRY com.ibm.mq.runtime 1 0 2019-08-29 02:39:52.415
+!MESSAGE MQ Install location found:C:/Program Files/IBM/MQ
+
+!ENTRY com.ibm.mq.runtime 1 0 2019-08-29 02:39:52.415
+!MESSAGE 
+
+!ENTRY com.ibm.etools.mft.uri 0 0 2019-08-29 02:40:52.555
+!MESSAGE 
+
+!ENTRY org.eclipse.ui 4 4 2019-08-29 02:43:04.413
+!MESSAGE Plug-in 'com.ibm.etools.mft.applib.ui' contributed an invalid Menu Extension (Path: 'convertMenu' is invalid): com.ibm.etools.mft.applib.ui.action.RefactorIntoAppLibAction
+
+!ENTRY org.eclipse.ui 4 4 2019-08-29 02:43:04.413
+!MESSAGE Plug-in 'com.ibm.etools.mft.applib.ui' contributed an invalid Menu Extension (Path: 'convertMenu' is invalid): com.ibm.etools.mft.applib.ui.action.RefactorProjectsAction
+
+!ENTRY org.eclipse.ui 4 4 2019-08-29 02:43:04.413
+!MESSAGE Plug-in 'com.ibm.etools.msg.importer.framework' contributed an invalid Menu Extension (Path: 'mbNewMenu/mbCreateMessageDefinitionFromSubMenu' is invalid): com.ibm.etools.msg.importer.framework.actions.OpenGenMsgDefinitionFromXMLSchemaAction
+
+!ENTRY org.eclipse.ui 4 4 2019-08-29 02:43:04.413
+!MESSAGE Plug-in 'com.ibm.etools.msg.importer.framework' contributed an invalid Menu Extension (Path: 'mbNewMenu/mbCreateMessageDefinitionFromSubMenu' is invalid): com.ibm.etools.msg.importer.framework.actions.OpenGenMsgDefinitionFromXMLDTDAction
+
+!ENTRY org.eclipse.ui 4 4 2019-08-29 02:43:04.413
+!MESSAGE Plug-in 'com.ibm.etools.msg.importer.framework' contributed an invalid Menu Extension (Path: 'mbNewMenu/mbCreateMessageDefinitionFromSubMenu' is invalid): com.ibm.etools.msg.importer.framework.actions.OpenGenMsgDefinitionFromWSDLAction
+
+!ENTRY org.eclipse.ui 4 4 2019-08-29 02:43:04.429
+!MESSAGE Plug-in 'com.ibm.etools.msg.importer.framework' contributed an invalid Menu Extension (Path: 'mbNewMenu/mbCreateMessageDefinitionFromSubMenu' is invalid): com.ibm.etools.msg.importer.framework.actions.OpenGenMsgDefinitionFromIBMSuppliedMessageAction
+
+!ENTRY org.eclipse.ui 4 4 2019-08-29 02:43:04.429
+!MESSAGE Plug-in 'com.ibm.etools.msg.importer.framework' contributed an invalid Menu Extension (Path: 'mbNewMenu/mbCreateMessageDefinitionFromSubMenu' is invalid): com.ibm.etools.msg.importer.framework.actions.OpenGenMsgDefinitionFromDBMAction
+
+!ENTRY org.eclipse.ui 4 4 2019-08-29 02:43:04.429
+!MESSAGE Plug-in 'com.ibm.etools.msg.importer.framework' contributed an invalid Menu Extension (Path: 'mbNewMenu/mbCreateMessageDefinitionFromSubMenu' is invalid): com.ibm.etools.msg.importer.framework.actions.OpenGenMsgDefinitionFromCORBAAction
+
+!ENTRY org.eclipse.ui 4 4 2019-08-29 02:43:04.429
+!MESSAGE Plug-in 'com.ibm.etools.msg.importer.framework' contributed an invalid Menu Extension (Path: 'mbNewMenu/mbCreateMessageDefinitionFromSubMenu' is invalid): com.ibm.etools.msg.importer.framework.actions.OpenGenMsgDefinitionFromCOBOLAction
+
+!ENTRY org.eclipse.ui 4 4 2019-08-29 02:43:04.429
+!MESSAGE Plug-in 'com.ibm.etools.msg.importer.framework' contributed an invalid Menu Extension (Path: 'mbNewMenu/mbCreateMessageDefinitionFromSubMenu' is invalid): com.ibm.etools.msg.importer.framework.actions.OpenGenMsgDefinitionFromCAction
