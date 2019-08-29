@@ -370,3 +370,119 @@ Binding(ALT+CTRL+C,
 
 !ENTRY com.ibm.mq.runtime 1 0 2019-08-29 05:09:02.504
 !MESSAGE 
+!SESSION 2019-08-29 06:01:21.354 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.fullversion=8.0.5.35 - pwa6480sr5fp35ifix-20190524_01(SR5 FP35+IJ15979)
+JRE 1.8.0 Windows 10 amd64-64-Bit Compressed References 20190524_417294 (JIT enabled, AOT enabled)
+OpenJ9   - 321e430
+OMR      - 16b77d7
+IBM      - 72459d3
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -showlocation -product com.ibm.etools.msgbroker.tooling.ide tools_auto -showlocation -product com.ibm.etools.msgbroker.tooling.ide
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -showlocation -product com.ibm.etools.msgbroker.tooling.ide tools_auto -showlocation -product com.ibm.etools.msgbroker.tooling.ide
+
+!ENTRY org.eclipse.equinox.registry 2 0 2019-08-29 06:02:39.436
+!MESSAGE The extensions and extension-points from the bundle "org.eclipse.emf.commonj.sdo" are ignored. The bundle is not marked as singleton. 
+
+!ENTRY org.eclipse.emf.ecore 2 0 2019-08-29 06:03:07.718
+!MESSAGE Both 'com.ibm.etools.javaee.core' and 'com.ibm.etools.mft.service.model' register an extension parser for 'application'
+
+!ENTRY org.eclipse.jface 2 0 2019-08-29 06:03:11.421
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-08-29 06:03:11.421
+!MESSAGE A conflict occurred for ALT+CTRL+C:
+Binding(ALT+CTRL+C,
+	ParameterizedCommand(Command(org.eclipse.datatools.sqltools.result.copyInstance,Copy Result,
+		,
+		Category(org.eclipse.datatools.sqltools.result.category,SQL Results View,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@a1457a9,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+CTRL+C,
+	ParameterizedCommand(Command(org.eclipse.team.svn.ui.command.CommitCommand,Commit...,
+		,
+		Category(org.eclipse.team.svn.ui.command.category,SVN,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@49935d53,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.ui 2 2 2019-08-29 06:03:13.359
+!MESSAGE Invalid preference category path: com.ibm.importer.preferences (bundle: com.ibm.adapter.c, page: com.ibm.adapter.c.ui.preferencepage.CPreferencePage)
+
+!ENTRY org.eclipse.ui 2 2 2019-08-29 06:03:13.359
+!MESSAGE Invalid preference category path: com.ibm.debug.breakpoints.common.pref.tracepoint (bundle: com.ibm.debug.wsa, page: com.ibm.debug.wsa.WSATracepointPreferencePage)
+
+!ENTRY org.eclipse.ui 2 2 2019-08-29 06:03:13.359
+!MESSAGE Invalid preference category path: com.ibm.importer.preferences (bundle: com.ibm.etools.cobol.preference.ui, page: com.ibm.etools.cobol.preference.ui.preferencepage.CobolPreferencePage)
+
+!ENTRY com.ibm.etools.mft.uri 0 0 2019-08-29 06:03:13.921
+!MESSAGE 
+
+!ENTRY com.ibm.mq.runtime 1 0 2019-08-29 06:03:24.484
+!MESSAGE 
+
+!ENTRY com.ibm.mq.runtime 1 0 2019-08-29 06:03:24.500
+!MESSAGE C:\Program Files\IBM\ACE\11.0.0.5\tools>mqsifindmqpath
+
+!ENTRY com.ibm.mq.runtime 1 0 2019-08-29 06:03:25.906
+!MESSAGE BIP8071I: Successful command completion. C:\Program Files\IBM\MQ
+
+!ENTRY com.ibm.mq.runtime 1 0 2019-08-29 06:03:26.250
+!MESSAGE MQ Install location found:C:/Program Files/IBM/MQ
+
+!ENTRY com.ibm.mq.runtime 1 0 2019-08-29 06:03:26.266
+!MESSAGE 
+
+!ENTRY org.eclipse.ui 4 4 2019-08-29 06:04:36.567
+!MESSAGE Plug-in 'com.ibm.etools.mft.applib.ui' contributed an invalid Menu Extension (Path: 'convertMenu' is invalid): com.ibm.etools.mft.applib.ui.action.RefactorIntoAppLibAction
+
+!ENTRY org.eclipse.ui 4 4 2019-08-29 06:04:36.582
+!MESSAGE Plug-in 'com.ibm.etools.mft.applib.ui' contributed an invalid Menu Extension (Path: 'convertMenu' is invalid): com.ibm.etools.mft.applib.ui.action.RefactorProjectsAction
+
+!ENTRY org.eclipse.ui 4 4 2019-08-29 06:04:36.582
+!MESSAGE Plug-in 'com.ibm.etools.msg.importer.framework' contributed an invalid Menu Extension (Path: 'mbNewMenu/mbCreateMessageDefinitionFromSubMenu' is invalid): com.ibm.etools.msg.importer.framework.actions.OpenGenMsgDefinitionFromXMLSchemaAction
+
+!ENTRY org.eclipse.ui 4 4 2019-08-29 06:04:36.582
+!MESSAGE Plug-in 'com.ibm.etools.msg.importer.framework' contributed an invalid Menu Extension (Path: 'mbNewMenu/mbCreateMessageDefinitionFromSubMenu' is invalid): com.ibm.etools.msg.importer.framework.actions.OpenGenMsgDefinitionFromXMLDTDAction
+
+!ENTRY org.eclipse.ui 4 4 2019-08-29 06:04:36.582
+!MESSAGE Plug-in 'com.ibm.etools.msg.importer.framework' contributed an invalid Menu Extension (Path: 'mbNewMenu/mbCreateMessageDefinitionFromSubMenu' is invalid): com.ibm.etools.msg.importer.framework.actions.OpenGenMsgDefinitionFromWSDLAction
+
+!ENTRY org.eclipse.ui 4 4 2019-08-29 06:04:36.582
+!MESSAGE Plug-in 'com.ibm.etools.msg.importer.framework' contributed an invalid Menu Extension (Path: 'mbNewMenu/mbCreateMessageDefinitionFromSubMenu' is invalid): com.ibm.etools.msg.importer.framework.actions.OpenGenMsgDefinitionFromIBMSuppliedMessageAction
+
+!ENTRY org.eclipse.ui 4 4 2019-08-29 06:04:36.582
+!MESSAGE Plug-in 'com.ibm.etools.msg.importer.framework' contributed an invalid Menu Extension (Path: 'mbNewMenu/mbCreateMessageDefinitionFromSubMenu' is invalid): com.ibm.etools.msg.importer.framework.actions.OpenGenMsgDefinitionFromDBMAction
+
+!ENTRY org.eclipse.ui 4 4 2019-08-29 06:04:36.582
+!MESSAGE Plug-in 'com.ibm.etools.msg.importer.framework' contributed an invalid Menu Extension (Path: 'mbNewMenu/mbCreateMessageDefinitionFromSubMenu' is invalid): com.ibm.etools.msg.importer.framework.actions.OpenGenMsgDefinitionFromCORBAAction
+
+!ENTRY org.eclipse.ui 4 4 2019-08-29 06:04:36.582
+!MESSAGE Plug-in 'com.ibm.etools.msg.importer.framework' contributed an invalid Menu Extension (Path: 'mbNewMenu/mbCreateMessageDefinitionFromSubMenu' is invalid): com.ibm.etools.msg.importer.framework.actions.OpenGenMsgDefinitionFromCOBOLAction
+
+!ENTRY org.eclipse.ui 4 4 2019-08-29 06:04:36.582
+!MESSAGE Plug-in 'com.ibm.etools.msg.importer.framework' contributed an invalid Menu Extension (Path: 'mbNewMenu/mbCreateMessageDefinitionFromSubMenu' is invalid): com.ibm.etools.msg.importer.framework.actions.OpenGenMsgDefinitionFromCAction
+
+!ENTRY org.eclipse.team.svn.core.svnnature 4 0 2019-08-29 06:05:26.411
+!MESSAGE SVN: '0x00400006: Validate Repository Location' operation finished with error
+!SUBENTRY 1 org.eclipse.team.svn.core.svnnature 4 0 2019-08-29 06:05:26.411
+!MESSAGE SVN: '0x00400006: Validate Repository Location' operation finished with error: Selected SVN connector library is not available or cannot be loaded.
+If you selected native JavaHL connector, please check if binaries are available or install and select pure Java Subversion connector from the plug-in connectors update site.
+If connectors already installed then you can change the selected one at: Window->Preferences->Team->SVN->SVN Connector.
+!STACK 0
+org.eclipse.team.svn.core.operation.UnreportableException: Selected SVN connector library is not available or cannot be loaded.
+If you selected native JavaHL connector, please check if binaries are available or install and select pure Java Subversion connector from the plug-in connectors update site.
+If connectors already installed then you can change the selected one at: Window->Preferences->Team->SVN->SVN Connector.
+	at org.eclipse.team.svn.core.extension.factory.ISVNConnectorFactory$1.createConnector(ISVNConnectorFactory.java:118)
+	at org.eclipse.team.svn.core.svnstorage.SVNRepositoryLocation.newProxyInstance(SVNRepositoryLocation.java:847)
+	at org.eclipse.team.svn.core.svnstorage.SVNRepositoryLocation.acquireSVNProxy(SVNRepositoryLocation.java:614)
+	at org.eclipse.team.svn.core.utility.SVNUtility.validateRepositoryLocation(SVNUtility.java:960)
+	at org.eclipse.team.svn.ui.wizard.shareproject.AddRepositoryLocationPage$3.runImpl(AddRepositoryLocationPage.java:214)
+	at org.eclipse.team.svn.core.operation.AbstractActionOperation.run(AbstractActionOperation.java:82)
+	at org.eclipse.team.svn.core.operation.LoggedOperation.run(LoggedOperation.java:40)
+	at org.eclipse.team.svn.core.utility.ProgressMonitorUtility.doTask(ProgressMonitorUtility.java:104)
+	at org.eclipse.team.svn.core.utility.ProgressMonitorUtility.doTaskExternal(ProgressMonitorUtility.java:90)
+	at org.eclipse.team.svn.ui.utility.DefaultCancellableOperationWrapper.run(DefaultCancellableOperationWrapper.java:55)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)

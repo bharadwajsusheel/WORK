@@ -1,0 +1,28 @@
+<project name="MLI"  basedir="..">
+  <description>IIB Continuous Integration Demo (main script)</description>
+  <property file="E:/WORK/Build/ant/build.properties" />
+	
+	<echo message="Building a BAR File.."></echo>
+	
+	<exec executable="${iib.toolkit}/mqsicreatebar">
+		<arg value="-data"/>
+		<arg value="${path.iib}"/>	
+		<arg value="-b"/>
+		<arg value="${bar.path}/${barfile}"/>
+		<arg value="-a"/>
+		<arg value="${app.name}"/>
+		<arg value="-deployAsSource"/>	
+	</exec>
+	
+	<echo message="BAR File Succesfully Built.. !!"></echo>
+	
+	<echo message="Deploying BAR File ... "></echo>
+	
+    <exec executable="${iib.path}/deploy.bat">
+     	<arg value="${integrationnode}" />
+     	<arg value="${integrationsvr}" />
+     	<arg value="${bar.path}/${barfile}" />
+    </exec>
+	
+	<echo message="BAR File Deployed Successfully !!"></echo>
+</project>

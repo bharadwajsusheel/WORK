@@ -3,5 +3,8 @@
 <workingSet editPageId="com.ibm.etools.mft.navigator.BrokerWorkingSet.AppLib" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1567071647493_1" label="[app]" name="[app]">
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/app" type="4"/>
 </workingSet>
+<workingSet editPageId="com.ibm.etools.mft.navigator.BrokerWorkingSet.AppLib" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1567080875937_2" label="[Build]" name="[Build]">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Build" type="4"/>
+</workingSet>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1567071588431_0" label="Window Working Set" name="Aggregate for window 1567071588431"/>
 </workingSetManager>
